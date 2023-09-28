@@ -1,9 +1,18 @@
+.vector-icon {
+  position: absolute;
+  height: 11.96%;
+  top: 88.24%;
+  bottom: -0.2%;
+  left: calc(50% - 720px);
+  max-height: 100%;
+  width: 1440px;
+}
 .yellow-bg-icon {
   position: absolute;
+  top: 0;
   right: 0;
-  bottom: 769.44px;
-  width: 755.26px;
-  height: 706.56px;
+  width: 695.24px;
+  height: 754.51px;
 }
 .phinstagram-logo-fill-icon {
   position: relative;
@@ -39,8 +48,8 @@
   font-family: var(--font-nunito);
 }
 .footer-icons1 {
-  top: 1476px;
-  left: calc(50% - 22px);
+  top: 1425px;
+  left: calc(50% - 97px);
 }
 .title {
   position: relative;
@@ -48,87 +57,49 @@
   display: inline-block;
   width: 486px;
 }
-.i-am-are {
-  margin-block-start: 0;
-  margin-block-end: 24px;
+.aboutme {
+  
 }
 .text {
   position: relative;
+  margin-block-start: 0;
+  margin-block-end: 24px;
   line-height: 150%;
   display: inline-block;
   width: 486px;
 }
-.content,
 .subheadline {
+  align-self: stretch;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-}
-.subheadline {
   padding: 18px 0 0;
   font-size: 26px;
   color: var(--font-medium-emphasis);
   font-family: var(--font-piedra);
 }
+.content,
+.icon {
+  position: absolute;
+}
 .content {
-  position: absolute;
-  top: 113px;
-  left: 104px;
+  top: 116px;
+  left: 57px;
   width: 958px;
-  height: 293px;
-  gap: 10px;
-  font-size: var(--title-h1-size);
-  color: var(--bg-line);
-  font-family: var(--title-h1);
-}
-.praveen-kumar {
-  position: absolute;
-  top: 12px;
-  left: 120px;
-  line-height: 180%;
-}
-.sobre {
-  position: relative;
-  line-height: 28px;
-  font-weight: 500;
-}
-.tab-default {
-  cursor: pointer;
-}
-.nav,
-.tab-default,
-.tab-default1 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-}
-.nav {
-  top: 14px;
-  right: 120px;
-  flex-direction: row;
-  gap: 48px;
-  font-family: var(--body-18);
-}
-.header,
-.icon,
-.nav {
-  position: absolute;
-}
-.header {
-  width: calc(100% - 12px);
-  top: 17px;
-  right: 28px;
-  left: -16px;
-  height: 161px;
-  font-size: var(--body-18-size);
-  color: var(--bg-line);
-  font-family: var(--font-comfortaa);
+  padding: 0 472px 0 0;
+  box-sizing: border-box;
+  gap: 10px;
+  font-size: var(--title-h1-size);
+  font-family: var(--title-h1);
 }
 .icon {
-  top: 113px;
-  left: 1073px;
+  top: 163px;
+  right: 62px;
   border-radius: 262px;
   width: 384px;
   height: 384px;
@@ -147,8 +118,8 @@
 }
 .ovalesecondary {
   position: absolute;
-  top: 786px;
-  left: 393px;
+  top: 821px;
+  left: calc(50% - 370px);
   border-radius: 2px;
   background: linear-gradient(
       rgba(255, 255, 255, 0.2),
@@ -158,9 +129,46 @@
   width: 695px;
   height: 93px;
 }
+.praveen-kumar {
+  position: absolute;
+  top: 43px;
+  left: 29px;
+  line-height: 180%;
+  display: inline-block;
+  font-family: var(--font-comfortaa);
+  width: 164px;
+  height: 44px;
+}
+.sobre {
+  position: relative;
+  line-height: 28px;
+  font-weight: 500;
+}
+.tab-default {
+  cursor: pointer;
+}
+.nav,
+.tab-default,
+.tab-default1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.nav {
+  position: absolute;
+  top: 27px;
+  right: 54px;
+  width: 400px;
+  height: 60px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-family: var(--body-18);
+}
 .social-media {
   position: absolute;
-  top: 804px;
+  top: 833px;
   left: calc(50% - 269.89px);
   font-size: 55px;
   line-height: 136%;
@@ -172,144 +180,191 @@
   transform: rotate(0.08deg);
   transform-origin: 0 0;
 }
-.instagram-black-icon {
-  position: relative;
-  width: 48px;
-  height: 48px;
-}
-.instagram {
-  width: 187px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-  gap: var(--gap-base-5);
-}
-.category-title-1,
-.pinterest,
-.snapchat,
-.twitter {
-  position: absolute;
-  top: calc(50% + 197px);
-  left: calc(50% - 431px);
-  width: 283px;
-  height: 109px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-}
-.pinterest,
-.snapchat,
-.twitter {
-  top: calc(50% + 459px);
-  width: 286px;
-  height: 86px;
-  gap: var(--gap-base-5);
-}
-.snapchat,
-.twitter {
-  top: calc(50% + 325px);
-  width: 263px;
-  height: 100px;
-}
-.snapchat {
-  top: calc(50% + 341px);
-  left: calc(50% + 111px);
-  width: 270px;
-}
-.github {
-  position: relative;
-  line-height: 160%;
-}
-.snapchat2,
-.tumblr {
-  position: absolute;
-  top: calc(50% + 475px);
-  left: calc(50% + 77px);
-  width: 304px;
-  height: 86px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  gap: var(--gap-base-5);
-}
-.tumblr {
-  top: calc(50% + 213px);
-  left: calc(50% + 125px);
-  width: 218px;
-  height: 109px;
-}
-.vector-icon {
-  position: absolute;
-  height: 13.66%;
-  width: 101.76%;
-  top: 86.92%;
-  right: -1.76%;
-  bottom: -0.59%;
-  left: 0;
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
-}
 .text1 {
   position: relative;
   line-height: 150%;
   font-weight: 500;
 }
 .button-primary {
-  left: 306px;
+  left: 57px;
   background-color: var(--brand-yellow);
 }
 .button-primary,
 .button-primary1,
 .button-secondary {
   position: absolute;
-  top: 599px;
+  top: 465px;
   border-radius: var(--br-5xs);
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
   padding: var(--padding-5xs) var(--padding-5xl);
-  font-size: var(--body-18-size);
-  color: var(--bg-line);
-  font-family: var(--font-roboto);
 }
 .button-primary1 {
-  left: 96px;
+  left: 278px;
   background-color: var(--brand-yellow);
 }
 .button-secondary {
-  left: 503px;
+  left: 536px;
   border: 2px solid var(--bg-line);
   box-sizing: border-box;
   width: 96px;
 }
-.footer-icons2 {
+.instagram-black-icon,
+.instagram1 {
   position: absolute;
-  top: 1384px;
-  left: calc(50% - 69px);
-  width: 194px;
-  height: 119px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: var(--gap-13xl);
-  font-size: var(--font-size-base);
-  color: var(--font-medium-emphasis);
-  font-family: var(--font-nunito);
+  top: 0.45px;
+  left: calc(50% - 120.91px);
+  width: 59.52px;
+  height: 63.6px;
 }
-.portfolio-simple-footer {
-  position: relative;
-  background-color: var(--bg-gray);
-  width: 100%;
-  height: auto;
-  overflow: hidden;
-  text-align: left;
+.instagram1 {
+  top: 0;
+  left: calc(50% - 51.46px);
+  line-height: 160%;
+  display: inline-block;
+  width: 172.37px;
+  height: 59.63px;
+}
+.instagram {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 394.24px);
+  width: 241.81px;
+  height: 64.05px;
+}
+.discord-black-icon,
+.discord1 {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 127.2px);
+  width: 59.52px;
+  height: 63.6px;
+}
+.discord1 {
+  top: 4px;
+  left: calc(50% - 40.2px);
+  line-height: 160%;
+  display: inline-block;
+  width: 167.41px;
+  height: 59.63px;
+}
+.discord {
+  position: absolute;
+  top: 252px;
+  left: calc(50% + 139.84px);
+  width: 254.41px;
+  height: 63.63px;
+}
+.twitter-black-icon,
+.twitter1 {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 106.03px);
+  width: 59.52px;
+  height: 63.6px;
+}
+.twitter1 {
+  left: calc(50% - 35.34px);
+  line-height: 160%;
+  display: inline-block;
+  width: 141.37px;
+  height: 59.63px;
+}
+.twitter {
+  position: absolute;
+  top: 127.2px;
+  left: calc(50% - 394.24px);
+  width: 212.05px;
+  height: 63.6px;
+}
+.snapchat-black-icon,
+.snapchat1 {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 135.17px);
+  width: 59.52px;
+  height: 63.6px;
+}
+.snapchat1 {
+  left: calc(50% - 65.72px);
+  line-height: 160%;
+  display: inline-block;
+  width: 200.89px;
+  height: 59.63px;
+}
+.snapchat {
+  position: absolute;
+  top: 254px;
+  left: calc(50% - 394.16px);
+  width: 270.33px;
+  height: 63.6px;
+}
+.pinterest-black-icon,
+.pinterest1 {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 117.5px);
+  width: 59.52px;
+  height: 63.6px;
+}
+.pinterest1 {
+  top: 1.99px;
+  left: calc(50% - 37.51px);
+  line-height: 160%;
+  display: inline-block;
+  width: 155.01px;
+  height: 59.63px;
+}
+.github-black-icon,
+.github1,
+.pinterest {
+  position: absolute;
+  top: 127.2px;
+  left: calc(50% + 140.22px);
+  width: 234.99px;
+  height: 63.6px;
+}
+.github-black-icon,
+.github1 {
+  top: 0;
+  left: calc(50% - 98.28px);
+  width: 59.52px;
+}
+.github1 {
+  top: 1.99px;
+  left: calc(50% - 18.29px);
+  line-height: 160%;
+  display: inline-block;
+  width: 116.57px;
+  height: 59.63px;
+}
+.github,
+.social {
+  position: absolute;
+  top: 0;
+  left: calc(50% + 140.22px);
+  width: 196.55px;
+  height: 63.6px;
+}
+.social {
+  top: 1021px;
+  left: calc(50% - 382.08px);
+  width: 788.49px;
+  height: 317.6px;
   font-size: var(--font-size-9xl);
   color: var(--main-corail);
   font-family: var(--font-inter);
+}
+.desktop {
+  position: relative;
+  background-color: var(--bg-gray);
+  width: 100%;
+  height: 1513px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--body-18-size);
+  color: var(--bg-line);
+  font-family: var(--font-roboto);
 }
